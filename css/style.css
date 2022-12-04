@@ -5,7 +5,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
 }
 
@@ -20,4 +20,51 @@ h6 {
 
 p {
   margin: 0;
+}
+
+
+.navibar {
+  display: flex;
+  background-color: rgb(76, 138, 117);
+  align-items: space-between;
+  justify-content: space-between;
+
+}
+
+.menu { 
+  height: 20%;
+  background-color:  rgb(118, 126, 126);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.list {
+  width: fit-content;
+  display:inline-block;
+  justify-items: flex-end;
+  margin: 50px;
+  height: 10px;
+}
+
+.page-footer {
+ background-color: rgb(10, 10, 10);
+}
+
+.page-footer { 
+  display:flex;
+  align-items: center;
+  justify-content:space-between;
+
+}
+
+.socials { 
+  display:flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.facebook, .instagram, .twitter, .linkedIn {
+  width: 50px;
+  margin: 5px;
 }
