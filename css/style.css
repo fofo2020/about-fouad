@@ -68,3 +68,37 @@ p {
   width: 50px;
   margin: 5px;
 }
+
+
+
+/* Grid CSS*/
+
+#pageGrid {
+  display: grid;
+  min-height: 600px;
+  height: 100vh;
+  grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-template-areas:
+   "work work about"
+   "work work about "
+   "work work about"
+   "work work about"
+   "work work about"
+   "cert cert cert";
+}
+
+#about {
+  grid-area: about;
+  background-color: blue;
+}
+
+#work {
+  grid-area: work;
+  background-color: yellow;
+}
+
+#cert {
+  grid-area: cert;
+  background-color: brown;
+}
