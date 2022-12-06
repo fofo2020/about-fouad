@@ -5,11 +5,18 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  line-height: 1.5;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5; 
 }
 
-h1,
+header h1 {
+  font-size: 70px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #52e4ce, #d393b4);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
 h2,
 h3,
 h4,
@@ -70,8 +77,7 @@ p {
 }
 
 
-
-/* Grid CSS*/
+/* Grid CSS */
 
 #pageGrid {
   display: grid;
@@ -90,15 +96,85 @@ p {
 
 #about {
   grid-area: about;
-  background-color: blue;
+  background-color:#ffffff;
 }
 
 #work {
   grid-area: work;
   background-color: yellow;
+  background-image: url(../images//2020-06-19\ 12.38.17.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 #cert {
   grid-area: cert;
-  background-color: brown;
+  background-color: rgb(152, 148, 163);
+
 }
+
+/* Content Grid CSS */
+
+.box{
+  display: inline-block;
+  align-items: center;
+  justify-items: center;
+  color: black;
+  background-image: url(../images/fouad-pic.png);
+  background-size: 100% 100%;
+  width: 90%;
+  height: 100%;
+  
+}
+
+
+.page-section-cert {
+  display:flex;
+  height: 150px;
+  padding: 10px;
+  align-items:center;
+  justify-content: space-around;
+}
+.cert-logo {
+
+  background-color: aquamarine;
+  height: 100%;
+  width: 100%;
+  
+}
+
+#cert1 {
+  
+  background-image: url(../images/Microsoft-Cert.png);
+  background-repeat: no-repeat;
+  background-size: 80% 80%;
+  margin: 10px;
+  }
+  
+#cert2 {
+ 
+      background-image: url(../images/ComptiA-logo.png);
+      background-repeat: no-repeat;
+      background-size: 80% 80%;
+      margin: 10px;
+    }
+    
+#cert3 {
+      
+        background-image: url(../images/Power-BI.png);
+        background-repeat: no-repeat;
+        background-size: 80% 80%;
+        margin: 10px;
+      }
+#cert4 {
+          background-image: url(../images/Linux-Comptia-Cert.png);
+          background-repeat: no-repeat;
+          background-size: 80% 80%;
+          margin: 10px;
+        }
+ #cert5 {
+          background-image: url(../images/BCS.png);
+          background-repeat: no-repeat;
+          background-size: 80% 80%;
+          margin: 10px;
+        }
