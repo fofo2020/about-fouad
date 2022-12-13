@@ -20,8 +20,7 @@ header h1 {
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5,h6 {
   margin: 0;
 }
 
@@ -101,10 +100,16 @@ p {
 
 #work {
   grid-area: work;
+  display: grid;
+  grid-template-rows: 1fr, 1fr;
+  grid-template-columns: 1fr, 1fr;
   background-color: yellow;
   background-image: url(../images//2020-06-19\ 12.38.17.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  grid-area: 
+  "project project"
+  "project project";
 }
 
 #cert {
@@ -143,38 +148,63 @@ p {
   
 }
 
+/* Content Grid Style*/ 
 #cert1 {
   
   background-image: url(../images/Microsoft-Cert.png);
   background-repeat: no-repeat;
-  background-size: 80% 80%;
+  position: relative;
+  background-size: 100%;
   margin: 10px;
+  border-radius: 25%;
+  border: solid 5px tomato;
   }
   
 #cert2 {
  
       background-image: url(../images/ComptiA-logo.png);
       background-repeat: no-repeat;
-      background-size: 80% 80%;
+      position: relative;
+      background-size: 100%;
       margin: 10px;
+      border-radius: 25%;
+      border: solid 5px tomato;
     }
     
 #cert3 {
       
         background-image: url(../images/Power-BI.png);
         background-repeat: no-repeat;
-        background-size: 80% 80%;
+        position: relative;
+        background-size: 100%;
         margin: 10px;
+        border-radius: 25%;
+        border: solid 5px tomato;
       }
 #cert4 {
           background-image: url(../images/Linux-Comptia-Cert.png);
           background-repeat: no-repeat;
-          background-size: 80% 80%;
+          position: relative;
+          background-size: 100%;
           margin: 10px;
+          border-radius: 25%;
+        border: solid 5px tomato;
         }
  #cert5 {
           background-image: url(../images/BCS.png);
           background-repeat: no-repeat;
-          background-size: 80% 80%;
+          position: relative;
+          background-size: 100%;
           margin: 10px;
+          border-radius: 25%;
+          border: solid 5px tomato;
         }
+
+/* Nested Grid style */
+
+.project {
+background-color: #52e4ce;
+margin: 2px;
+}
+
+
